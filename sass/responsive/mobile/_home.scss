@@ -1,0 +1,6 @@
+.card {
+  @include card();
+  .card-text {
+    background-color: $color-primary;
+  }
+}

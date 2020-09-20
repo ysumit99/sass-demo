@@ -1,0 +1,21 @@
+.card {
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.card .card-text {
+  background-color: #dcdcdc;
+}
+
+@media only screen and (min-width: 992px) {
+  .card .card-text {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 992px) and (min-width: 1566px) {
+  .card-text {
+    background-color: pink;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
